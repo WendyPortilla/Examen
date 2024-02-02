@@ -1,7 +1,7 @@
 import React from 'react'
 import { SafeAreaView, View } from 'react-native'
 import { Caja10Screen } from './src/Caja10Screen';
-//import { VectoresScreen } from './src/VectoresScreen';
+import { VectoresScreen } from './src/VectoresScreen';
 //import { Caja9Screen } from './src/Caja9Screen';
 //import { Caja6Screen } from './src/Caja6Screen';
 //import { Caja5Screen } from './src/Caja5Screen';
@@ -25,7 +25,7 @@ export const App = () => {
    {/* <Caja8Screen/> */}
    {/* <Caja9Screen/> */}
    {/* <Caja10Screen/> */}
-   {/* <VectoresScreen/> */}
+    <VectoresScreen/> 
 
     </SafeAreaView>
   )
